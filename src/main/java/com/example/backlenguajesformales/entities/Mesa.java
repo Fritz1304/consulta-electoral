@@ -8,14 +8,14 @@ import jakarta.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name= "MESA")
+@Table(name= "mesa")
 public class Mesa implements Serializable {
 
     private static final long serialVersionUID= 1L;
 
     @Id
     @Column(name = "table")
-    private int table;
+    private String table;
 
     @Column(name= "ubication")
     private String ubication;

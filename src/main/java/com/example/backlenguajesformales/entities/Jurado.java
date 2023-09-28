@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 
 @Entity
-@Table(name= "JURADO")
+@Table(name= "jurado")
 public class Jurado implements Serializable {
 
 
@@ -43,6 +43,21 @@ public class Jurado implements Serializable {
     @Column(name = "cellphone")
     private String cellphone;
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getCellphone() {
+        return cellphone;
+    }
+
+    public void setCellphone(String cellphone) {
+        this.cellphone = cellphone;
+    }
 
     public Jurado() {
     }
