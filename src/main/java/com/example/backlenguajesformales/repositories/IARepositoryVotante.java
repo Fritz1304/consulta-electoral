@@ -1,4 +1,11 @@
 package com.example.backlenguajesformales.repositories;
 
-public interface IARepositoryVotante {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface IARepositoryVotante extends JpaRepository {
+
+
+
+
+
 }

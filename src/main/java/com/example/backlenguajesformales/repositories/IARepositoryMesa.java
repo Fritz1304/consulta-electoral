@@ -1,4 +1,9 @@
 package com.example.backlenguajesformales.repositories;
 
-public interface IARepositoryMesa {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface IARepositoryMesa extends JpaRepository {
+
+
+
 }
